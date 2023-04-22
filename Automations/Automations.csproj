@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Objects\Permission\" />
+    <Folder Include="DTOs\PermissionDTOs\" />
     <Folder Include="Services\PermissionServices\" />
     <Folder Include="Utils\" />
   </ItemGroup>

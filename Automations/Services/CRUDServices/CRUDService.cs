@@ -10,12 +10,14 @@ namespace Automations.Services.CRUDServices
         {
             HeaderComponents headerComponents = new HeaderComponents();
             MethodSignatures methodSignatures = new MethodSignatures();
-            string projectName = Assembly.GetCallingAssembly().GetName().Name;
             string createOrRequest = content.WithStatus ? "Request" : "Create";
             string idType = content.StringBasedId ? "string" : "int";
+            string projectName = content.ProjectName;
+            string interfaceContent = "";
+            
+            // FORMATTING
             string camelCaseModelName = char.ToLower(content.ModelName[0]) + content.ModelName.Substring(1);
             string pluralModel = Pluralize(content.ModelName);
-            string interfaceContent = "";
 
             #region HEADER COMPONENTS INITIALIZATION
             headerComponents.ProjectName = projectName;
