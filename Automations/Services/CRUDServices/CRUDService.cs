@@ -1,4 +1,4 @@
-﻿using Automations.Objects.CRUD;
+﻿using Automations.DTOs.CRUDDTOs;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
@@ -248,7 +248,7 @@ namespace Automations.Services.CRUDServices
                 $"\t\t}}\n\n";
         }
 
-        // STATUS CHANGE CREATOR
+        // STATUS CHANGE CREATOR (CHECK | APPROVE | DECLINE)
         private void StatusChangeMethodsCreator(
             ref string classContent,
             MethodSignatures methodSignatures,

@@ -1,4 +1,4 @@
-﻿using Automations.Objects.CRUD;
+﻿using Automations.DTOs.CRUDDTOs;
 using Automations.Services.CRUDServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

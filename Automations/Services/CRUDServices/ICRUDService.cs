@@ -1,4 +1,4 @@
-﻿using Automations.Objects.CRUD;
+﻿using Automations.DTOs.CRUDDTOs;
 
 namespace Automations.Services.CRUDServices
 {

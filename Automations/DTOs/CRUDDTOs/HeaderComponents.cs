@@ -1,4 +1,4 @@
-﻿namespace Automations.Objects.CRUD
+﻿namespace Automations.DTOs.CRUDDTOs
 {
     public class HeaderComponents
     {
